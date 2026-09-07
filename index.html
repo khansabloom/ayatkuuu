@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#c979d8">
+  <title>Lanjut Ayat — Juz 30</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky-decor" aria-hidden="true">
+    <span class="star s1">✦</span><span class="star s2">✧</span><span class="star s3">✦</span>
+    <span class="star s4">✧</span><span class="heart h1">♥</span><span class="heart h2">♥</span>
+    <span class="cloud c1"></span><span class="cloud c2"></span>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-icon">📖</div>
+      <span>Lanjut Ayat</span>
+    </div>
+    <div class="top-actions">
+      <button class="icon-btn" id="soundBtn" aria-label="Aktifkan atau matikan suara">🔊</button>
+      <button class="icon-btn" id="themeBtn" aria-label="Ubah tema">☀️</button>
+    </div>
+  </header>
+
+  <main class="hero">
+    <aside class="note note-left">
+      <div class="note-pin">✦</div>
+      <p>“Sedikit demi sedikit,<br>hafalanmu akan semakin kuat”</p>
+      <span>♡</span>
+    </aside>
+
+    <section class="game-card">
+      <div class="moon">☾</div>
+      <div class="mini-stars">✦　✧　✦</div>
+      <h1><span>Lanjut</span><strong>Ayat</strong></h1>
+      <div class="ribbon">Juz 30</div>
+      <p class="tagline">Asah hafalanmu,<br>satu ayat demi satu ayat</p>
+
+      <button class="primary" id="startBtn">
+        <span class="play">▶</span>
+        <span>Mulai Game</span>
+      </button>
+
+      <div class="menu-row">
+        <button class="menu-btn" data-action="surah"><span>📖</span>Pilih Surah</button>
+        <button class="menu-btn" data-action="score"><span>🏆</span>High Score</button>
+        <button class="menu-btn" data-action="settings"><span>⚙️</span>Pengaturan</button>
+      </div>
+
+      <div class="tiny-message">🌸 Hafalan seru, hati tenang 🌸</div>
+    </section>
+
+    <aside class="note note-right">
+      <div class="note-pin">✦</div>
+      <h2>Juz 30</h2>
+      <p>Surah-surah pendek,<br>isi yang luar biasa</p>
+      <span>♥</span>
+    </aside>
+  </main>
+
+  <footer>
+    <span>🌙 Lanjut Ayat</span>
+    <span>Belajar • Bermain • Menghafal</span>
+  </footer>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-box">
+      <button class="close" id="closeModal">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
